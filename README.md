@@ -168,9 +168,13 @@ git push -u origin feature/ui
 
 1. GitHub 저장소에 접속합니다.
 2. 작업한 브랜치에서 `Compare & pull request`를 선택합니다.
-3. 변경 사항과 작업 내용을 작성합니다.
-4. 팀원들과 코드를 검토합니다.
-5. 문제가 없다면 `main` 브랜치에 병합합니다.
+3. PR 템플릿에 맞춰 작업 내용을 작성하고, 오른쪽 `Reviewers`에 다른 팀원을 지정합니다.
+4. 리뷰어는 `Files changed` 탭에서 코드를 확인한 뒤 `Review changes → Approve`를 누릅니다.
+5. **1명 승인(Approve)을 받아야** `main`에 병합(`Merge pull request`)할 수 있습니다.
+6. 병합 후 `Delete branch`로 작업 브랜치를 정리합니다.
+
+> `main` 브랜치는 보호되어 있어 직접 push할 수 없고, 반드시 PR을 통해서만 병합됩니다.
+> 자기 PR은 스스로 승인할 수 없으므로 서로의 PR을 리뷰해 줍니다.
 
 ### STEP 7. 다음 작업 준비
 
