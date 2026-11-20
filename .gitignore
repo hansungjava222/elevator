@@ -1,0 +1,26 @@
+# ===== Eclipse =====
+.metadata/
+bin/
+tmp/
+*.tmp
+*.bak
+*.swp
+*~.nib
+local.properties
+.loadpath
+.recommenders/
+
+# ===== Java =====
+*.class
+*.log
+hs_err_pid*
+
+# ===== 다른 에디터 (VS Code, IntelliJ) =====
+.vscode/
+.idea/
+*.iml
+
+# ===== OS =====
+.DS_Store
+Thumbs.db
+desktop.ini
