@@ -1,8 +1,7 @@
-/**
- * 
- */
-package elevator;
 
+package elevator;
+import javax.swing.SwingUtilities;
+import ui.MainFrame;
 /**
  * 
  */
@@ -13,7 +12,7 @@ public class Main {
 	 */
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-
+		SwingUtilities.invokeLater(() -> new MainFrame());
 	}
 
 }
