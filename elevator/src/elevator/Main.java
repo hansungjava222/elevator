@@ -12,7 +12,7 @@ public class Main {
 	 */
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		SwingUtilities.invokeLater(() -> new MainFrame());
+		SwingUtilities.invokeLater(() -> new MainFrame()); // EDT 이벤트 큐에 작업 등록
 	}
 
 }
